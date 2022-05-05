@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(254, 185, 161);
+    background-color: rgb(253, 221, 211);
     padding: 0px;
     margin: 0px;
 }
@@ -9,6 +9,10 @@ header {
 }
 
 .himage1 {
+    height: 200px; 
+}
+
+.himage2 {
     height: 200px; 
 }
 
@@ -31,4 +35,28 @@ nav a:hover {
     background-color: blue;
     color: aliceblue;
     font-size: 1.5em;
+    height: auto;
+}
+
+.box {
+    background: white;
+    width: 300px;
+    height: 450px;
+    overflow: visible;
+    margin: 20px;
+    display: block;
+    float: left;
+}
+
+article img {
+    width: 300px;
+}
+
+h2, p {
+    margin: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
